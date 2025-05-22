@@ -1,3 +1,73 @@
 body{
 background-color: #B2CD9C;
 }
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 15px;
+  background-color: #ffff;
+}
+
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6))
+  ,url("../images/PyramidofKukulcan.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.container2{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0; 
+}
+
+.map{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0; 
+  text-align: center;
+
+  background-color: #f8f8f8 ;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 64px;
+}
+
+.gallery{
+  grid-row: 1fr 1fr 1fr;
+}
+
+.instagram-embeds{
+  margin:30px 0;
+}
+
+.text-center{
+  text-align: center;
+  font-size: 75px;
+}
+
+footer{
+  background-image: linear-gradient(rgba(43, 86, 48, 0.9),rgba(116, 167, 131, 0.9) ), url("../images/walloffaces.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blanchedalmond;
+  padding: 100px 0;
+}
+
+footer a{
+  color: blanchedalmond;
+  text-decoration: none;
+
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
